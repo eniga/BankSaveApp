@@ -1,0 +1,8 @@
+{
+  "name": "BankSaveApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "5a4d4f18"
+}

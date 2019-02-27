@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button href="/dashboard">
+          <ion-icon slot="icon-only" name="arrow-round-back"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title class="text-center">Sales</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <form>
+          <div class="form-group">
+            <button class="btn btn-default">N1000</button>
+            <button class="btn btn-default">N500</button>
+            <button class="btn btn-default">N200</button>
+            <button class="btn btn-default">N100</button>
+            <button class="btn btn-default">N50</button>
+            <button class="btn btn-default">N10</button>
+            <button class="btn btn-default">N5</button>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <label class="col-sm-2 col-form-label">Amount: </label>
+              <div class="input-group-prepend">
+                <span class="input-group-text">N</span>
+              </div>
+              <input type="number" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-danger btn-block">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>
